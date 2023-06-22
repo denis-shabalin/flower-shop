@@ -1,0 +1,293 @@
+body {
+   font-family: 'Cormorant', serif;
+   font-family: 'Oswald', sans-serif;
+   background: #040A0A;
+}
+
+.container {
+   width: 1110px;
+   margin: 0 auto;
+   position: relative;
+}
+.intro {
+   width: 1440px;
+   background-image: url(../resources/flowers-hands.png);
+   height: 1244px;
+   margin: 0 auto;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.intro__header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 69px;
+   margin-bottom: 52px;
+}
+.intro__header-logo {
+   width: 34px;
+   height: 75px;
+}
+
+.intro__header-menu {
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+
+.menu-link {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   letter-spacing: 0.56px;
+   line-height: 22px;
+   text-decoration: none;
+}
+
+.menu-link:last-child::before {
+   content: '';
+   display: inline-block;
+   width: 18px;
+   height: 16px;
+   background-image: url(../resources/loupe-icon.png);
+   background-repeat: no-repeat;
+   margin-right: 10px;
+}
+
+.intro__inner {
+   display: flex;
+   flex-direction: column;
+}
+.intro__title {
+   color: #FFF;
+   font-size: 200px;
+   font-family: 'Cormorant';
+   font-weight: 300;
+   letter-spacing: 40px;
+   text-align: center;
+}
+
+.intro__subtitle {
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Oswald';
+   letter-spacing: 0.4px;
+   margin-bottom: 47px;
+}
+
+.intro__btn {
+   width: 220px;
+   height: 50px;
+   background: #43FFD2;
+   margin: 0 auto;
+   border: none;
+
+   color: #000;
+   font-size: 12px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   cursor: pointer;
+}
+
+.intro__btn:hover {
+   color: #FFF;
+   background: #7D2253;
+}
+
+.intro__btn:focus {
+   background: #43FFD2;
+   border: 1px solid #7D2253;
+}
+
+.inro__btn:active {
+   background: #7D2253;
+   box-shadow: 0px 0px 10px 0px #1B000E inset;
+}
+
+.intro__btn:disabled {
+   color: #555;
+   background: #040A0A;
+   border: 1px solid #555;
+}
+
+.intro__sidebar {
+   position: absolute;
+   top: 20px;
+   right: 0;
+   text-align: right;
+}
+.intro__sidebar-email, .intro__sidebar-adress {
+   color: #43FFD2;
+   font-size: 14px;
+   font-family: 'Oswald';
+   letter-spacing: 1.4px;
+   text-transform: uppercase;
+   margin-bottom: 26px;
+}
+
+.intro__sidebar-adress {
+   margin-bottom: 60px;
+}
+
+.intro__sidebar-email::after {
+   content: 'Доставка 24/7 по договоренности с оператором';
+   display: block;
+   color: #FFF;
+   font-size: 10px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   margin-top: 4px;
+}
+
+.intro__sidebar-adress::after {
+   content: '10:00 до 21:00\Aбез выходных';
+   display: block;
+   color: #FFF;
+   font-size: 10px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   margin-top: 4px;
+   white-space: pre-wrap;
+   line-height: 13px;
+}
+
+.intro__sidebar-box {
+   display: flex;
+   position: inherit;
+   right: 0;
+   flex-direction: column;
+   gap: 20px;
+   border-radius: 10px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   padding: 20px 18px;
+   width: 60px;
+   box-sizing: border-box;
+}
+
+.intro__sidebar-phone-number {
+   position: inherit;
+   right: 0;
+   top: 539px;
+   color: #43FFD2;
+   font-size: 16px;
+   font-family: Oswald;
+   letter-spacing: 1.6px;
+   text-transform: uppercase;
+}
+
+.intro__sidebar-phone {
+   display: flex;
+   align-items: center;
+   position: inherit;
+   top: 570px;
+   right: 0;
+   width: 181px;
+   height: 40px;
+   border-radius: 10px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   padding: 9px 19px 10px 18px;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+
+.phone-icon {
+   width: 16px;
+   height: 16px;
+}
+
+.phone-text {
+   text-align: center;
+   color: #43FFD2;
+   font-size: 14px;
+   font-family: 'Oswald';
+   letter-spacing: 1.4px;
+   margin-left: 6px;
+}
+
+.intro__sidebar-basket {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   position: inherit;
+   right: 0;
+   top: 630px;
+   cursor: pointer;
+}
+
+.basket-icon {
+   width: 30px;
+   height: 30px;
+}
+
+.basket-counter {
+   position: absolute;
+   top: 12px;
+   left: 36px;
+   color: #142B2B;
+   font-size: 12px;
+   font-family: 'Oswald';
+   letter-spacing: 0.48px;
+   border-radius: 16px;
+   background: #43FFD2;
+   padding: 2px 5px;
+}
+
+.intro__sidebar-signature {
+   position: inherit;
+   top: 1045px;
+   right: 0;
+}
+
+.green-bg {
+   position: absolute;
+   top: 236px;
+   left: 936px;
+   width: 472.65px;
+   height: 211.054px;
+   transform: rotate(-43.21deg);
+   border-radius: 472.65px;
+   background: #7D2253;
+   filter: blur(125px);
+}
+.purple-bg {
+   position: absolute;
+   top: 365px;
+   left: -33px;
+   width: 358.902px;
+   height: 293.047px;
+   transform: rotate(41.599deg);
+   flex-shrink: 0;
+   border-radius: 358.902px;
+   background: #249479;
+   filter: blur(125px);
+}
+
+.intro__flowers-front {
+   background-image: url(../resources/flowers-front.png);
+   width: 1440px;
+   height: 975px;
+   position: absolute;
+   top: 0;
+}
+.overlay-blackout {
+   background-image: url(../resources/blackout.png);
+   width: 100%;
+   height: 406px;
+   position: absolute;
+   top: 838px;
+}
