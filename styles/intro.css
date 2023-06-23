@@ -60,6 +60,7 @@ body {
    display: flex;
    flex-direction: column;
 }
+
 .intro__title {
    color: #FFF;
    font-size: 200px;

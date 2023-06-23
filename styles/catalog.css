@@ -1,0 +1,164 @@
+.catalog {
+   position: relative;
+   width: 1440px;
+   height: 1006px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.catalog__purple-bg {
+   position: absolute;
+   top: 528px;
+   left: -150px;
+   width: 707.545px;
+   height: 236.872px;
+   transform: rotate(32.828deg);
+   flex-shrink: 0;
+   border-radius: 707.545px;
+   background: #7D2253;
+   filter: blur(125px);
+}
+
+.catalog__green-bg {
+   position: absolute;
+   top: 500px;
+   left: 661px;
+   width: 879.44px;
+   height: 211.054px;
+   transform: rotate(32.828deg);
+   flex-shrink: 0;
+   border-radius: 879.44px;
+   background: #43FFD2;
+   filter: blur(125px);
+}
+
+
+.catalog__inner {
+   width: 1110px;
+   margin: 0 auto;
+   padding-top: 100px;
+}
+
+.catalog__title {
+   color: #FFF;
+   font-size: 100px;
+   font-family: 'Cormorant';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+
+.catalog__title-box {
+   position: absolute;
+   left: 260px;
+   width: 540px;
+}
+
+.catalog__subtitle {
+   margin-bottom: 30px;
+}
+
+.catalog__subtitle, .catalog__text {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   line-height: 26px;
+   letter-spacing: 0.8px;
+}
+
+.catalog__flowers {
+   position: absolute;
+   top: 450px;
+   left: 165px;
+   width: 540px;
+   height: 310px;
+   border-radius: 20px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   padding: 30px 30px 30px 50px;
+   box-sizing: border-box;
+}
+
+.catalog__flowers-letters, .catalog__bouquests-letters, .catalog__additional-letters {
+   position: absolute;
+   top: 409px;
+   left: -28px;
+   color: #0A1717;
+   font-size: 200px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 8px;
+   z-index: -1;
+}
+
+.catalog__bouquests-letters {
+   top: 184px;
+   left: 780px;
+}
+
+.catalog__additional-letters {
+   top: 639px;
+   left: 650px;
+}
+
+.catalog__flowers-list {
+   list-style: initial;
+   padding-left: 7px;
+}
+
+.catalog__flowers-title, .catalog__suhocvet-title {
+   color: #43FFD2;
+   font-size: 30px;
+   line-height: 40px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   margin-bottom: 10px;
+}
+
+.flowers-list-item {
+   color: #FFF;
+   font-size: 18px;
+   font-family: 'Oswald';
+   letter-spacing: 0.72px;
+   margin-bottom: 4px;
+}
+
+.catalog-view {
+   position: absolute;
+   right: 30px;
+   bottom: 30px;
+   color: #D978AC;
+   font-size: 12px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   text-decoration-line: underline;
+}
+
+.catalog__suhocvet {
+   position: absolute;
+   top: 231px;
+   right: 165px;
+   width: 445px;
+   height: 281px;
+   border-radius: 20px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   padding: 30px 30px 30px 50px;
+   box-sizing: border-box;
+}
+
+.catalog__additionally {
+   position: absolute;
+   top: 542px;
+   width: 540px;
+   right: 165px;
+   height: 264px;
+   border-radius: 20px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   padding: 30px 30px 30px 50px;
+   box-sizing: border-box;
+}
