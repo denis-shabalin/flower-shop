@@ -1,9 +1,8 @@
-.catalog {
+   .catalog {
    position: relative;
    width: 1440px;
-   height: 1006px;
+   height: 1056px;
    margin: 0 auto;
-   overflow: hidden;
 }
 
 .catalog__purple-bg {
@@ -16,7 +15,7 @@
    flex-shrink: 0;
    border-radius: 707.545px;
    background: #7D2253;
-   filter: blur(125px);
+   filter: blur(125px); 
 }
 
 .catalog__green-bg {
