@@ -1,0 +1,53 @@
+.instagram {
+   width: 1440px;
+   height: 621px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.instagram__inner {
+   position: relative;
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.instagram__photo {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   padding-top: 261px;
+}
+
+.instagram__box-icon {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.instagram__box-signature {
+   position: absolute;
+   top: 170px;
+   right: 100px;
+}
+
+.instagram__box-line {
+   position: absolute;
+   top: 261px;
+   right: 0px;
+   width: 350px;
+   height: 1px;
+   background: #43FFD2;
+}
+
+.instagram__box-social{
+   width: 40px;
+}
+
+.instagram-back {
+   position: absolute;
+   top: 310px;
+   z-index: -1;
+}

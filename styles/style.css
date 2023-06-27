@@ -1,3 +1,9 @@
+@import url(../styles/header.css);
 @import url(../styles/intro.css);
 @import url(../styles/catalog.css);
 @import url(../styles/popular-bouquets.css);
+@import url(../styles/order.css);
+@import url(../styles/special-occasion.css);
+@import url(../styles/feedback.css);
+@import url(../styles/instagram.css);
+@import url(../styles/footer.css);

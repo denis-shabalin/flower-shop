@@ -1,0 +1,64 @@
+header {
+   width: 1440px;
+   margin: 0 auto;
+   height: 80px;
+   background-color: #000;
+   display: none;
+}
+
+.header__inner {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.header__section {
+   display: flex;
+   align-items: center;
+}
+
+.header-logo {
+   width: 34px;
+   height: 75px;
+   margin-right: 69px;
+}
+
+.header_right {
+   margin-right: 153px;
+}
+
+.header__phone {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-right: 36px;
+}
+
+.header__phone-icon {
+   width: 18px;
+   height: 18px;
+}
+
+.header__phone-number {
+   color: #43FFD2;
+   font-size: 14px;
+   font-family: 'Oswald';
+   letter-spacing: 1.4px;
+   text-transform: uppercase;
+}
+
+.header__basket {
+   position: relative;
+}
+
+.header__basket-counter {
+   position: absolute;
+   top: 0px;
+   left: 20px;
+   color: #142B2B;
+   font-size: 12px;
+   font-family: 'Oswald';
+   letter-spacing: 0.48px;
+   border-radius: 16px;
+   background: #43FFD2;
+   padding: 2px 5px;
+}

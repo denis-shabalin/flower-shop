@@ -1,0 +1,112 @@
+.special-occasion {
+   width: 1440px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.special-occasion__inner {
+   width: 1110px;
+   margin: 0 auto;
+   padding-bottom: 160px;
+}
+
+.special-occasion__header {
+   display: flex;
+   align-items: center;
+   gap: 80px;
+   margin-bottom: 30px;
+}
+
+.special-occasion__title {
+   position: relative;
+   width: 773px;
+   color: #FFF;
+   font-size: 100px;
+   font-family: 'Cormorant';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.second-line {
+   display: inline-block;
+   text-indent: 375px;
+}
+
+.second-line::before {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 150px;
+   left: 90px;
+   width: 255px;
+   height: 1px;
+   transform: translateY(-50%);
+   background-color: #D978AC;
+}
+
+.special-occasion__box {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   margin-left: 95px;
+}
+
+.special-occasion__box-text {
+   position: relative;
+}
+
+.special-occasion__text-help {
+   color: #FFF;
+   font-size: 14px;
+   line-height: 21px;
+   font-family: 'Oswald';
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+
+.special-occasion__text-list {
+   list-style: initial;
+   margin-bottom: 40px;
+}
+
+.special-occasion__text-item {
+   color: #FFF;
+   font-size: 14px;
+   line-height: 21px;
+   font-family: 'Oswald';
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   margin-bottom: 18px;
+}
+
+.special-occasion__text-btn {
+   width: 255px;
+   height: 50px;
+   background: #43FFD2;
+
+   color: #000;
+   font-size: 12px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+   border: none;
+}
+
+.special-occasion__text-img {
+   position: absolute;
+   top: 290px;
+   left: -40px;
+}
+
+.special-occasion__box-img-fructs, .special-occasion__box-img-paper, .special-occasion__box-img-decoration {
+   height: 292px;
+}
+
+.special-occasion__purple-elipse {
+   position: absolute;
+   top: -100px;
+   right: 0;
+   z-index: -1;
+}

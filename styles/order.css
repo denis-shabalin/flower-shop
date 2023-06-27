@@ -1,0 +1,81 @@
+.order {
+   width: 1440px;
+   margin: 0 auto;
+}
+
+.order__inner {
+   position: relative;
+   width: 1100px;
+   margin: 0 auto;
+}
+
+.order__title {
+   color: #FFF;
+   font-size: 100px;
+   font-family: 'Cormorant';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.order__flower-img {
+   position: absolute;
+   top: 10px;
+   left: -165px;
+}
+
+.order__step {
+   margin-top: 40px;
+}
+
+.order__steps {
+   margin-top: 15px;
+   margin-left: 380px;
+   margin-bottom: 160px;
+}
+
+.order__steps-line {
+   width: 65px;
+   height: 10px;
+   background: #D978AC;
+}
+
+.order__box {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: 435px;
+}
+
+.order__step-title {
+   color: #D978AC;
+   font-size: 30px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   margin-bottom: 12px;
+}
+
+.order__step-text {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   line-height: 21px;
+}
+
+.order__step-line {
+   position: absolute;
+   top: 40px;
+   right: 0;
+   width: 1px;
+   height: 437px;
+   background-color: #D978AC;
+}
+
+.order__signature-lf {
+   position: absolute;
+   top: 615px;
+   left: 865px;
+}

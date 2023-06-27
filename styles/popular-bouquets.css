@@ -1,7 +1,7 @@
-.popular-bouquets {
+   .popular-bouquets {
    width: 1440px;
-   height: 1177px;
    margin: 0 auto;
+   position: relative;
 }
 
 .popular-bouquets__inner {
@@ -49,10 +49,18 @@
 }
 
 .popular-bouquest__sliders {
+   position: relative;
    display: flex;
    flex-direction: row;
    gap: 30px;
    margin-top: 227px;
+}
+
+.popular-bouquest__sliders::after {
+   content: '';
+   background-image: url(../resources/arrow-slide-left.png);
+   width: 80px;
+   height: 0;
 }
 
 .slide__img {
@@ -105,13 +113,31 @@
    display: block;
    position: static;
    margin-top: 60px;
+   margin-bottom: 160px;
+}
+
+.popular__bouquest-green-bg {
+   position: absolute;
+   top: 194px;
+   z-index: -1;
 }
 
 .popular__bouquest-purple-bg {
-   width: 813.998px;
-   height: 661.887px;
-   transform: rotate(32.828deg);
-   flex-shrink: 0;
-   filter: blur(125px);
-   background-color: #43FFD278;
+   position: absolute;
+   z-index: -1;
+   top: 370px;
+   left: 200px;
+}
+
+.popular-bouquest__slider-arrow-left {
+   position: absolute;
+   top: 225px;
+   left: -100px;
+}
+
+.popular-bouquest__slider-arrow-right {
+   position: absolute;
+   transform: rotate(180deg);
+   top: 225px;
+   right: -100px;
 }
