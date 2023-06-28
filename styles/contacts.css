@@ -157,3 +157,15 @@
 .contacts__maps-item {
    margin: 0 auto;
 }
+
+.consent-message_blood {
+   color: #8B3131;
+}
+
+.contacts__write input {
+   border-color: #555555;
+}
+
+.textarea-border {
+   border-color: #555555;
+}
