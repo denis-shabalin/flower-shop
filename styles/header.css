@@ -3,7 +3,6 @@ header {
    margin: 0 auto;
    height: 80px;
    background-color: #000;
-   display: none;
 }
 
 .header__inner {

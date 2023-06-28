@@ -1,0 +1,179 @@
+.about__section {
+   width: 1440px;
+   height: 2416px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.about__inner {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.about__container-line {
+   margin-left: 186px;
+}
+
+.breadcrumbs {
+   display: flex;
+   align-items: center;
+   margin-top: 35px;
+   margin-bottom: 46px;
+}
+
+.breadcrumbs__item+.breadcrumbs__item::before {
+   content: "/";
+   color: #fff;
+   font-size: 12px;
+   padding: 5px;
+}
+
+.breadcrumbs__link {
+   color: #FFF;
+   font-size: 12px;
+   font-family: 'Oswald';
+   letter-spacing: 0.48px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.about__title {
+   color: #FFF;
+   font-size: 100px;
+   font-family: 'Cormorant';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin-left: 95px;
+   margin-bottom: 98px;
+}
+
+.about__lover {
+   position: relative;
+}
+
+.about__container-title {
+   color: #43FFD2;
+   font-size: 60px;
+   font-family: 'Cormorant';
+   line-height: 64px;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+}
+
+.lover-title {
+   margin-bottom: 18px;
+}
+
+.about__lover-flower-line {
+   position: absolute;
+   top: 95px;
+   left: 260px;
+   display: block;
+   width: 60px;
+   height: 1px;
+   background: #43FFD2;
+}
+
+.about__box {
+   position: absolute;
+   right: 0;
+   width: 847px;
+   height: 282px;
+   padding: 40px 20px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   box-sizing: border-box;
+}
+
+.about__box-text1 {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   line-height: 30px;
+   letter-spacing: 0.4px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.about__box-text2 {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   line-height: 26px;
+   letter-spacing: 0.8px;
+}
+
+.about-garant {
+   margin-top: 400px;
+   margin-bottom: 20px;
+}
+
+.about__container-text {
+   margin-bottom: 100px;
+}
+
+.about-zakaz {
+   margin-bottom: 20px;
+}
+
+.about__container-list {
+   list-style: inherit;
+   margin-left: 300px;
+   margin-bottom: 158px;
+}
+
+.about__container-item {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   line-height: 34px;
+   letter-spacing: 0.8px;
+}
+
+.about__harmony-text{
+   color: #fff;
+   margin-bottom: 40px;
+}
+
+.about__flower-top {
+   position: absolute;
+   top: -120px;
+   right: 0;
+}
+
+.about__flower-tl {
+   position: absolute;
+   top: -120px;
+   left: 0;
+}
+
+.about__flower-bottom {
+   position: absolute;
+   bottom: -140px;
+   right: 0;
+   z-index: -1;
+}
+
+.about__color-lt {
+   position: absolute;
+   top: -80px;
+   left: 0;
+   z-index: -1;
+}
+
+.about__color-ct {
+   position: absolute;
+   top: 220px;
+   left: 180px;
+   z-index: -1;
+}
+
+.about__color-rt {
+   position: absolute;
+   top: 0;
+   left: 600px;
+   z-index: -1;
+}

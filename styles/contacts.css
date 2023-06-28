@@ -1,0 +1,159 @@
+.contacts__section {
+   width: 1440px;
+   height: 2024px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.contacts__inner {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.contacts__title {
+   color: #FFF;
+   font-size: 100px;
+   font-family: 'Cormorant';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   line-height: 121px;
+   margin-left: 95px;
+   margin-bottom: 40px;
+}
+
+.contacts__box-list {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   margin-bottom: 140px;
+}
+
+.contacts__box-item {
+   width: 255px;
+   height: 255px;
+   border-radius: 20px;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+   box-sizing: border-box;
+   padding: 72px 27px 71px;
+}
+
+.contacts__box-item-title {
+   color: #43FFD2;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.contacts__box-item-text {
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 300;
+   line-height: 26px;
+   letter-spacing: 0.4px;
+}
+
+
+
+
+
+
+.contacts__color-ct {
+   position: absolute;
+   top: 0; 
+   left: 0;
+   z-index: -1;
+}
+
+.contacts__color-rt {
+   position: absolute;
+   top: -80px; 
+   right: 0;
+   z-index: -1;
+}
+
+.contacts__flower-rt {
+   position: absolute;
+   right: 0;
+   top: -110px;
+}
+.contacts__flower-lc {
+   position: absolute;
+   left: 0;
+   top: 70px;
+}
+
+.contacts__write {
+   display: flex;
+   flex-direction: row;
+   gap: 68px;
+   margin-bottom: 100px;
+}
+
+.contacts__write-us {
+   position: relative;
+   width: 605px;
+}
+
+.contacts__write-title {
+   color: #FFF;
+   font-size: 100px;
+   line-height: 121px;
+   font-family: 'Cormorant';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin-bottom: 24px;
+}
+
+.contacts__write-title-us {
+   display: inline-block;
+   text-indent: 363px;
+}
+
+.contacts__write-signature {
+   position: absolute;
+   right: 50px;
+}
+
+.contacts__write-input {
+   width: 100%;
+}
+
+.contacts__write-right {
+   margin-left: 185px;
+}
+
+.contacts__write-input-line {
+   margin-top: 60px;
+   margin-bottom: 53px;
+}
+
+.contacts__write-input-text {
+   color: #FFF;
+   font-size: 14px;
+   line-height: 21px;
+   font-family: 'Oswald';
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   text-align: right;
+}
+
+.contacts__maps-title {
+   color: #43FFD2;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.contacts__maps-item {
+   margin: 0 auto;
+}
