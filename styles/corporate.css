@@ -1,0 +1,254 @@
+.corporate__section {
+   width: 1440px;
+   height: 3509px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.corporate__inner {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.corporate__subtitle {
+   color: #FFF;
+   font-size: 40px;
+   font-family: 'Cormorant';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   margin-left: 95px;
+   margin-bottom: 100px;
+}
+
+.corporate__subtitle-two {
+   display: inline-block;
+   text-indent: 115px;
+}
+
+.corporate_left {
+   margin-left: 95px;
+}
+
+.corporate__text {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   margin-bottom: 100px;
+}
+
+.corporate__text-brand {
+   margin-left: 0;
+   line-height: 42px;
+   margin-bottom: 20px;
+}
+
+.corporate__price-text {
+   color: #43FFD2;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   margin-bottom: 74px;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto; /* Два столбца */
+   gap: 30px;
+   margin-bottom: 100px;
+}
+
+.left-column,
+.right-column {
+   display: flex;
+   flex-direction: column;
+}
+
+.block {
+   width: 540px;
+   background-color: #e0e0e0;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+   box-sizing: border-box;
+   background: rgba(0, 0, 0, 0.20);
+   backdrop-filter: blur(10px);
+}
+
+.corporate__grid-text {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.8px;
+}
+
+.left-column .corporate__price-text, .right-column .corporate__price-text{
+   text-align: center;
+}
+
+.left-column .corporate__grid-text {
+   text-align: center;
+   padding: 25px;
+}
+
+
+.left-column .corporate__grid-text:last-child {
+   padding: 40px;
+}
+
+.corporate__stages-work {
+   margin-left: 581px;
+}
+
+.corporate__stages-work-title {
+   color: #43FFD2;
+   font-size: 40px;
+   font-family: 'Cormorant';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+
+.corporate__stages-work-line {
+   width: 60px;
+   height: 1px;
+   background: #43FFD2;
+   margin-bottom: 21px;
+}
+
+.corporate__stages-work-list {
+   list-style: auto;
+   padding-left: 20px;
+   margin-bottom: 184px;
+}
+
+.corporate__stages-work-item {
+   color: #FFF;
+   font-size: 20px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.8px;
+   text-transform: uppercase;
+   line-height: 30px;
+}
+
+.corporate__text-unit {
+   width: 1157px;
+   margin-left: 0;
+   line-height: 48px;
+   margin-bottom: 60px;
+}
+
+.corporate__fill-text {
+   margin-bottom: 20px;
+}
+
+.grid-container-input {
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 30px;
+   margin-bottom: 130px;
+}
+
+.left-column-input,
+.right-column-input {
+   display: flex;
+   flex-direction: column;
+}
+
+.block-input {
+   width: 540px;
+   margin-bottom: 20px;
+}
+
+.block-input__title {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.84px;
+   line-height: 21px;
+   margin-bottom: 4px;
+}
+
+.block-input__input {
+   width: 100%;
+   height: 60px;
+   padding: 19px 20px 20px;
+   box-sizing: border-box;
+   border: 1px solid #555;
+   background-color: rgba(255, 255, 255, 0);
+
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.56px;
+   outline: none;
+}
+
+.block-input__input::placeholder {
+   color: #555;
+}
+
+.corporate__input-signature {
+   margin-left: 207px;
+}
+
+.left-column-input .feedback__box-btn {
+   margin-top: 20px;
+}
+
+.corporate__color-center {
+   position: absolute;
+   top: 1180px;
+   left: 170px;
+   z-index: -1;
+}
+
+.corporate__flower-rt {
+   position: absolute;
+   right: 0;
+   top: -110px;
+}
+
+.corporate__flower-lt {
+   position: absolute;
+   top: -100px;
+   left: 0px;
+}
+
+.corporate__flower-lc {
+   position: absolute;
+   left: 0;
+   top: 1555px;
+}
+
+.corporate__flower-lcb {
+   position: absolute;
+   left: 0;
+   top: 1580px;
+   z-index: -1;
+}
