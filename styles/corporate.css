@@ -221,6 +221,20 @@
    margin-top: 20px;
 }
 
+.corporate__color-lt {
+   position: absolute;
+   top: -80px;
+   left: 0;
+   z-index: -1;
+}
+
+.corporate__color-rt {
+   position: absolute;
+   top: -80px;
+   right: 0;
+   z-index: -1;
+}
+
 .corporate__color-center {
    position: absolute;
    top: 1180px;
