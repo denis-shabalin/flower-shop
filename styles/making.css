@@ -1,0 +1,334 @@
+.making__section {
+   position: relative;
+   width: 1440px;
+   height: 2704px;
+   margin: 0 auto;
+}
+
+.making__inner {
+   position: relative;
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.making__subtitle {
+   color: #43FFD2;
+   font-size: 30px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+
+.making__signature {
+   position: absolute;
+   top: 165px;
+   left: 565px;
+}
+
+.making__chapter {
+   color: #43FFD2;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 0.84px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.making__mb-60 {
+   margin-bottom: 60px;
+}
+
+
+.maling__checkbox-delivery {
+   margin-bottom: 25px;
+}
+
+.maling__checkbox-label {
+   padding-left: 36px;
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: 0.56px;
+   color: #555555;
+}
+
+.maling__checkbox-label::before {
+   width: 16px;
+   height: 16px;
+   border-radius: 100px;
+   background-image: url(../resources/disabled-checkbox-point.png);
+   background-color: transparent;
+   border-radius: 100px;
+   border: none;
+}
+
+.checkbox input:checked ~ .maling__checkbox-label::before {
+   background-image: url(../resources/active-checkbox-point.png);
+   background-color: initial;
+   color: #fff;
+}
+
+.checkbox input:checked ~ .maling__checkbox-label {
+   color: #fff;
+}
+
+.block-input-small {
+   width: 160px;
+}
+
+.block-input-adress {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 10px 30px;
+}
+
+.making__price-delivery {
+   color: #555;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 1.4px;
+   text-transform: uppercase;
+}
+
+.maling__checkbox-payment {
+   margin-bottom: 17px;
+}
+
+.making__chapter_promo {
+   margin-top: 43px;
+   margin-bottom: 4px;
+   text-transform: unset;
+}
+
+.making__promo-box {
+   display: flex;
+   width: 351px;
+   height: 60px;
+}
+
+.making__promo {
+   width: 160px;
+   height: 100%;
+   box-sizing: border-box;
+   border: 1px solid #555;
+   background-color: transparent;
+   padding: 19px 20px 20px;
+   color: #fff;
+   
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.56px;
+}
+
+.making__promo::placeholder {
+   color: #555;
+}
+
+.making__promo-btn {
+   width: 191px;
+   height: 100%;
+   box-sizing: border-box;
+   border: 1px solid #43FFD2;
+   background: transparent;
+   color: #43FFD2;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 0.84px;
+   cursor: pointer;
+}
+
+.making__sum-total {
+   display: flex;
+   gap: 94px;
+   margin-top: 60px;
+}
+
+.sum-total {
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+
+.making__sum-discount {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+
+.making__topay {
+   display: flex;
+   gap: 27px;
+}
+
+.making__topay-btn {
+   width: 327px;
+}
+
+.right-column-input_making {
+   width: 350px;
+}
+
+.making__right-column-line {
+   width: 100%;
+   height: 1px;
+   background: #555;
+   margin-top: 25px;
+}
+
+.making__card-order {
+   padding: 20px 0;
+}
+
+.making__card-basket {
+   display: flex;
+   gap: 20px;
+}
+
+.making__card-item {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 23px 103px;
+   justify-content: space-between;
+   align-content: space-between;
+}
+
+.making__card-title, .making__card-price {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.28px;
+   text-transform: uppercase;
+}
+
+.making__card-price {
+   color: #43FFD2;
+   font-weight: 700;
+   letter-spacing: 0.56px;
+}
+
+.making__card-delete {
+   color: #FFF;
+   font-size: 10px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.4px;
+   text-decoration: underline;
+   text-transform: uppercase;
+   background: transparent;
+   border: none;
+   cursor: pointer;
+}
+
+
+.quantity {
+   display: flex;
+   width: 100px;
+   height: 30px;
+   gap: 14px;
+   padding: 0 15px;
+   justify-content: space-around;
+   align-items: center;
+   box-sizing: border-box;
+   border: 0.5px solid #555;
+}
+
+.input-count {
+   width: 20px;
+   height: 18px;
+   text-align: center;
+   color: #555;
+   background: transparent;
+   border: none;
+   text-align: center;
+   font-size: 12px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+}
+
+.znak {
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   padding: 2px;
+   background: transparent;
+   color: #555;
+   border: none;
+   text-align: center;
+   font-size: 12px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+}
+
+.znak:hover {
+   color: #fff;
+}
+
+.making__flower-rt, .making__flower-lt, .making__flower-rtt {
+   position: absolute;
+   top: -110px;
+   right: 0;
+   z-index: -1;
+}
+
+.making__flower-lt {
+   left: 0;
+}
+
+.making__flower-rtt {
+   z-index: -2;
+}
+
+.making__color-rt {
+   z-index: -3;
+}
+
+.making__color-lt {
+   top: -80px;
+   z-index: -2;
+}
+
+.making__color-rc {
+   top: 700px;
+}
+
+.catalog__color-lc-purple {
+   position: absolute;
+   top: 930px;
+   right: 0;
+   z-index: -2;
+}

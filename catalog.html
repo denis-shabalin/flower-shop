@@ -12,6 +12,31 @@
    <title>LOVER FLOWER</title>
 </head>
 <body>
+   <header class="header_fixed">
+      <div class="header__inner">
+         <div class="header__section">
+            <img src="resources/logo.svg" alt="логотип компании Lover Flower" class="header-logo">
+            <nav class="intro__header-menu header_right">
+               <a href="catalog.html" class="menu-link">КАТАЛОГ</a>
+               <a href="delivery.html" class="menu-link">ДОСТАВКА И ОПЛАТА</a>
+               <a href="about.html" class="menu-link">О НАС</a>
+               <a href="contacts.html" class="menu-link">КОНТАКТЫ</a>
+               <a href="faq.html" class="menu-link">FAQ</a>
+               <a href="" class="menu-link">ПОИСК</a>
+            </nav>
+            <div class="header__phone">
+               <img src="resources/phone-icon.png" alt="" class="header__phone-icon">
+               <p class="header__phone-number">+375 (29) 113-69-69</p>
+            </div>
+            <div class="header__basket">
+               <a href="">
+                  <img src="resources/basket-icon.png" alt="" class="header__basket-icon">
+                  <span class="header__basket-counter">1</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </header>
    <main>
       <div class="catalog__section">
          <div class="catalog__effects">
@@ -436,6 +461,30 @@
          }
       }, 15);
       }
+
+
+
+      // Получаем элементы хедеров
+      let header1 = document.querySelector('.breadcrumbs');
+      let header2 = document.querySelector('.header_fixed');
+
+      // Получаем начальное положение хедера 1
+      let header1OffsetTop = header1.offsetTop;
+
+      // Обработчик события скролла
+      window.addEventListener('scroll', function() {
+      // Получаем текущую позицию скролла
+      let scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Проверяем, если скролл превысил положение хедера 1
+      if (scrollPos >= header1OffsetTop) {
+         // Показываем хедер 2
+         header2.style.display = 'block';
+      } else {
+         // Скрываем хедер 2
+         header2.style.display = 'none';
+      }
+      });
 
 
    </script>
