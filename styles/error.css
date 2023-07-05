@@ -1,0 +1,86 @@
+.error__section {
+   position: relative;
+   width: 1440px;
+   height: 944px;
+   margin: 0 auto;
+}
+
+.error__inner {
+   position: relative;
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.error__color-rt {
+   top: 0;
+}
+
+.error__flower-rc, .error__flower-rt {
+   position: absolute;
+   right: 0;
+   top: 200px;
+   z-index: 1;
+}
+
+.error__flower-rt {
+   top: 80px  ;
+}
+
+.error__counter {
+   display: flex;
+   flex-direction: row;
+}
+
+.error__figure-first-4 {
+   width: 250px;
+   height: 360px;
+   margin-left: 80px;
+   margin-top: 70px;
+   z-index: -2;
+}
+
+.error__figure-first-0 {
+   width: 250px;
+   height: 250px;
+   margin-top: 258px;
+   margin-bottom: 243px;
+}
+
+.error__figure-second-4 {
+   margin-left: -110px;
+   margin-top: 0;
+}
+
+.error__signature {
+   position: absolute;
+   top: 225px;
+   right: 70px;
+}
+
+.error__flower-lt {
+   position: absolute;
+   top: -80px;
+   z-index: -1;
+}
+
+.error__text-box {
+   margin-left: 760px;
+}
+
+.error__text {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.error__text-link {
+   font-weight: 700;
+   color: #43FFD2;
+   margin-bottom: 93px;
+}
