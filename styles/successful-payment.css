@@ -1,0 +1,63 @@
+.successful-payment__section {
+   width: 1440px;
+   height: 944px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.successful-payment__inner {
+   width: 1110px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.successful-payment__title {
+   padding-top: 113px;
+}
+
+.successful-payment__title-two {
+   text-indent: 510px;
+}
+
+.successful-payment__title::after {
+   content: "";
+   position: absolute;
+   left: 261px;
+   top: 281px;
+   transform: translateX(-50%);
+   width: 349px; 
+   border-bottom: 1px solid #D978AC;
+}
+
+.successful-payment__number-order {
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.successful-payment__text {
+   color: #FFF;
+   font-size: 14px;
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+}
+
+.mb-61 {
+   margin-bottom: 61px;
+}
+
+.successful__flower-rb {
+   position: absolute;
+   bottom: -115px;
+   right: 0;
+}
+
+.successful__signature {
+   position: absolute;
+   top: 518px;
+   left: 464px;
+}
+

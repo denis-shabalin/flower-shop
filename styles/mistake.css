@@ -1,0 +1,80 @@
+.mistake__section {
+   width: 1440px;
+   height: 944px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.mistake__inner {
+   width: 1110px;
+   margin: 0 auto;
+}
+
+.mistake__flower-rb {
+   position: absolute;
+   bottom: -100px;
+   right: 0;
+   z-index: -1;
+}
+
+.flower-back-color {
+   z-index: -2;
+}
+
+.mistake__text-box {
+   margin-left: 185px;
+}
+
+.mistake__title {
+   padding-top: 113px;
+   margin-bottom: 30px;
+}
+
+.mistake__title-two {
+   text-indent: 185px;
+}
+
+.mistake__text {
+   color: #FFF;
+   font-family: 'Oswald';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.56px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+
+.mistake__error-text {
+   margin-bottom: 30px;
+}
+
+.mistake-btn {
+   width: 255px;
+   height: 50px;
+   background: #7D2253;
+   color: #FFF;
+   font-family: 'Oswald';
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+   border: none;
+   cursor: pointer;
+}
+
+.mistake__return-link {
+   color: #FFF;
+   font-family: 'Oswald';
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   letter-spacing: 0.48px;
+   text-decoration-line: underline;
+   text-transform: uppercase;
+   margin-left: 50px;
+}
