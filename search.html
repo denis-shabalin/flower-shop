@@ -16,18 +16,18 @@
       <div class="header__inner">
          <div class="header__section">
             <img src="resources/logo.svg" alt="логотип компании Lover Flower" class="header-logo">
-            <nav class="intro__header-menu header_right">
+            <nav class="intro__header-menu header_right search_right">
                <a href="catalog.html" class="menu-link">КАТАЛОГ</a>
                <a href="delivery.html" class="menu-link">ДОСТАВКА И ОПЛАТА</a>
                <a href="about.html" class="menu-link">О НАС</a>
                <a href="contacts.html" class="menu-link">КОНТАКТЫ</a>
                <a href="faq.html" class="menu-link">FAQ</a>
-               <a href="search.html" class="menu-link">ПОИСК</a>
+               <div class="menu-link__input">
+                  <img src="resources/loupe-icon.png" alt="">
+                  <input type="text" placeholder="Введите свой запрос" class="menu-link__input-write">
+                  <img src="resources/close-icon.png" alt="">
+               </div>
             </nav>
-            <div class="header__phone">
-               <img src="resources/phone-icon.png" alt="" class="header__phone-icon">
-               <p class="header__phone-number">+375 (29) 113-69-69</p>
-            </div>
             <div class="header__basket">
                <a href="">
                   <img src="resources/basket-icon.png" alt="" class="header__basket-icon">
@@ -38,32 +38,54 @@
       </div>
    </header>
    <main>
-      <div class="error__section">
-         <div class="error__effects">
-            <img src="resources/error-color-rt.png" alt="" class="delivery__color-rt error__color-rt">
-            <img src="resources/error-flower-rc.png" alt="" class="error__flower-rc">
-            <img src="resources/error-flower-rt.png" alt="" class="error__flower-rc error__flower-rt">
-            <img src="resources/error-flower-lt.png" alt="" class="error__flower-lt">
+      <div class="search__section">
+         <div class="search__effects">
+            <img src="resources/making-color-rt.png" alt="" class="corporate__color-rt making__color-rt">
+            <img src="resources/making-color-lt.png" alt="" class="catalog__color-lt making__color-lt">
          </div>
-         <div class="error__inner">
-            <div class="error__counter">
-               <img src="resources/error-figure-4.png" alt="" class="error__figure-first-4">
-               <img src="resources/error-figure-0.png" alt="" class="error__figure-first-0">
-               <img src="resources/error-figure-4.png" alt="" class="error__figure-first-4 error__figure-second-4">
+         <div class="search__inner">
+            <h2 class="search__title">Результат поиска: розы</h2>
+            <div class="search__result">
+               <div class="catalog__product-cards">
+                  <div class="catalog__product-card">
+                     <img src="resources/flower-card1.png" alt="" class="product-card__img slide__img">
+                     <p class="product-card__name slide__title">ЛУЧШИЙ ДЕНЬ</p>
+                     <p class="product-card__price slide__price rub">167.000 &#x20BD;</p>
+                     <button class="product-card__btn slide__btn">В корзину</button>
+                  </div>
+                  <div class="catalog__product-card">
+                     <img src="resources/flower-card2.png" alt="" class="product-card__img slide__img">
+                     <p class="catalog__product-card_new">NEW</p>
+                     <p class="product-card__name slide__title">ЛУЧШИЙ ДЕНЬ</p>
+                     <p class="product-card__price slide__price rub">167.000 &#x20BD;</p>
+                     <button class="product-card__btn slide__btn">В корзину</button>
+                  </div>
+                  <div class="catalog__product-card">
+                     <img src="resources/flower-card3.png" alt="" class="product-card__img slide__img">
+                     <p class="product-card__name slide__title">ЛУЧШИЙ ДЕНЬ</p>
+                     <p class="product-card__price slide__price rub">167.000 &#x20BD;</p>
+                     <button class="product-card__btn slide__btn">В корзину</button>
+                  </div>
+                  <div class="catalog__product-card">
+                     <img src="resources/flower-card4.png" alt="" class="product-card__img slide__img">
+                     <p class="catalog__product-card_sale">SALE</p>
+                     <p class="product-card__name slide__title">ЛУЧШИЙ ДЕНЬ</p>
+                     <p class="product-card__price slide__price rub">167.000 &#x20BD;</p>
+                     <button class="product-card__btn slide__btn">В корзину</button>
+                  </div>
+               </div>
             </div>
-            <img src="resources/error-signature-lf.png" alt="" class="error__signature">
-            <div class="error__text-box">
-               <p class="error__text">Ошибка 404</p>
-               <p class="error__text">Упс...Такой страницы нет</p>
-               <a href="index.html" class="error__text error__text-link">на главную</a>
+            <div class="search__error">
+               <p class="search__text">По данному запросу ничего не найдено.<br>Попробуйте еще раз или перейдите в каталог</p>
+               <a href="catalog.html" class="search__btn">В каталог</a>
             </div>
          </div>
       </div>
    </main>
    <footer>
       <div class="footer__effects">
-         <img src="resources/error-color-lb.png" alt="" class="footer-green-elipse1">
-         <img src="resources/error-color-rb.png" alt="" class="footer-purple-elipse">
+         <img src="resources/successful-payment-color-lb.png" alt="" class="footer-green-elipse1">
+         <img src="resources/instagram-green-elipse2.png" alt="" class="footer-green-elipse2">
       </div>
       <div class="footer__inner">
          <div class="footer__block">
