@@ -363,3 +363,9 @@
    z-index: 1;
    transition: all 2s ease-in-out;
 }
+
+.catalog__product-reset:hover {
+   color: #040A09;
+   background: #43FFD2;
+   border: none;
+}

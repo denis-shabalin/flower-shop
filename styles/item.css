@@ -373,3 +373,46 @@ input[type="radio"] {
    right: 0;
 }
 
+.reviews_null-nocomment {
+   display: none;
+}
+
+.reviews_null-yescomment-text {
+   color: #FFF;
+   font-family: 'Oswald';
+   font-size: 16px;
+   line-height: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.32px;
+   margin-bottom: 6px;
+}
+
+.mb-10 {
+   margin-bottom: 10px;
+}
+
+.data-commet {
+   color: #555;
+}
+
+.item-comment {
+   margin-bottom: 40px;
+}
+
+.reviews_null-btn {
+   cursor: pointer;
+}
+
+.info-text__btn:hover, .slide__btn:hover {
+   background: #43FFD2;
+   color: #040A09;
+   border: none;
+}
+
+.feedback__box-btn:hover {
+   background: #7D2253;
+   color: #FFF;
+   border: none;
+}
