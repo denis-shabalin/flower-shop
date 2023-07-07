@@ -61,3 +61,8 @@ header {
    background: #43FFD2;
    padding: 2px 5px;
 }
+
+
+.header-logo {
+   z-index: 10;
+}
