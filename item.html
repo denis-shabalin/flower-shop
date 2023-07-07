@@ -28,7 +28,7 @@
                <img src="resources/phone-icon.png" alt="" class="header__phone-icon">
                <p class="header__phone-number">+375 (29) 113-69-69</p>
             </div>
-            <div class="header__basket">
+            <div id="cart-icon" class="header__basket">
                <a href="">
                   <img src="resources/basket-icon.png" alt="" class="header__basket-icon">
                   <span class="header__basket-counter">1</span>
@@ -39,6 +39,14 @@
    </header>
    <main>
       <div class="item__section">
+         <div class="item__effects">
+            <img src="resources/item-color-rt.png" alt="" class="corporate__color-rt making__color-rt">
+            <img src="resources/item-color-lt.png" alt="" class="catalog__color-lt making__color-lt">
+            <img src="resources/item-color-ct.png" alt="" class="item__color-ct">
+            <img src="resources/item-color-lc.png" alt="" class="item__color-lc">
+            <img src="resources/item-color-rc.png" alt="" class="item__color-rc">
+            <img src="resources/item-flower-rc.png" alt="" class="item__flower-rc">
+         </div>
          <div class="item__inner">
             <ul class="breadcrumbs">
                <li class="breadcrumbs__item">
@@ -115,59 +123,84 @@
                      в примечании к заказу</p>
                </div>
             </div>
-            <div class="item__switch" id="radio-container">
-               <label class="item__switch-delivery" for="delivery-mode">
-                  <input type="radio" name="mode" id="delivery-mode" checked>
-                  Доставка и оплата
-               </label>
-               <label class="item__switch-delivery" for="reviews-mode">
-                  <input type="radio" name="mode" id="reviews-mode">
-                  Отзывы
-               </label>
-            </div>
-            <div id="content-container">
-               <!-- Контент для режима доставки -->
-               <div id="delivery-content" class="delivery-section">
-                  <h3 class="contacts__title-item conditions-title">Способы оплаты:</h3>
-                  <ul class="conditions__price-list item__price-list">
-                     <li class="contacts__price-item">
-                        БАНКОВСКОЙ КАРТОЙ ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ
-                     </li>
-                     <li class="contacts__price-item">
-                        НАЛИЧНЫМИ ИЛИ БАНКОВСКОЙ КАРТОЙ ПРИ САМОВЫВОЗЕ
-                     </li>
-                     <li class="contacts__price-item">
-                        НАЛИЧНЫМИ ПРИ ДОСТАВКЕ КУРЬЕРОМ
-                     </li>
-                     <li class="contacts__price-item">
-                        КРИПТОВАЛЮТОЙ ОНЛАЙН
-                     </li>
-                  </ul>
-                  <h3 class="contacts__title-item conditions-title">Стоимость доставки:</h3>
-                  <ul class="conditions__price-list item__price-list">
-                     <li class="contacts__price-item">
-                        <span class="text_bold">Бесплатно</span> – при заказе на сумму <span class="text_green">от 90 рублей</span>
-                     </li>
-                     <li class="contacts__price-item">
-                        <span class="text_bold">10 рублей</span> – при заказе на сумму <span class="text_green">менее 90 рублей</span>
-                     </li>
-                     <li class="contacts__price-item">
-                        Возможность, сроки и стоимость доставки за пределы МКАД, доставки в ночное<br> время, праздники <span class="text_green">оговариваются с менеджером</span>
-                     </li>
-                     <li class="contacts__price-item">
-                        Так же вы можете забрать ваш заказ самостоятельно по адресу:<br> <span class="text_green">г. Минск, ул. Тимирязева д. 67, комн. 112 ежедневно с 10.00 до 21.00</span>
-                     </li>
-                  </ul>
-                  <h3 class="contacts__title-item conditions-title">Условия доставки:</h3>
-                  <p class="contacts__price-item mb-100">Доставка осуществляется по городу Минску в пределах МКАД <span class="text_green">в любой день с 09.00 до 22.00.</span><br> Доставка в ночное время осуществляется по договоренности с оператором</p>
+               <div class="item__switch" id="radio-container">
+                  <label class="item__switch-delivery label_active" for="delivery-mode">
+                     <input type="radio" name="mode" id="delivery-mode" checked>
+                     Доставка и оплата
+                  </label>
+                  <label class="item__switch-delivery" for="reviews-mode">
+                     <input type="radio" name="mode" id="reviews-mode">
+                     Отзывы
+                  </label>
                </div>
-               <!-- Контент для режима отзывов -->
-               <div id="reviews-content" class="reviews">
-                  <div class="reviews_null">
-   
+               <div id="content-container">
+                  <!-- Контент для режима доставки -->
+                  <div id="delivery-content" class="delivery-section">
+                     <h3 class="contacts__title-item conditions-title">Способы оплаты:</h3>
+                     <ul class="conditions__price-list item__price-list">
+                        <li class="contacts__price-item">
+                           БАНКОВСКОЙ КАРТОЙ ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ
+                        </li>
+                        <li class="contacts__price-item">
+                           НАЛИЧНЫМИ ИЛИ БАНКОВСКОЙ КАРТОЙ ПРИ САМОВЫВОЗЕ
+                        </li>
+                        <li class="contacts__price-item">
+                           НАЛИЧНЫМИ ПРИ ДОСТАВКЕ КУРЬЕРОМ
+                        </li>
+                        <li class="contacts__price-item">
+                           КРИПТОВАЛЮТОЙ ОНЛАЙН
+                        </li>
+                     </ul>
+                     <h3 class="contacts__title-item conditions-title">Стоимость доставки:</h3>
+                     <ul class="conditions__price-list item__price-list">
+                        <li class="contacts__price-item">
+                           <span class="text_bold">Бесплатно</span> – при заказе на сумму <span class="text_green">от 90 рублей</span>
+                        </li>
+                        <li class="contacts__price-item">
+                           <span class="text_bold">10 рублей</span> – при заказе на сумму <span class="text_green">менее 90 рублей</span>
+                        </li>
+                        <li class="contacts__price-item">
+                           Возможность, сроки и стоимость доставки за пределы МКАД, доставки в ночное<br> время, праздники <span class="text_green">оговариваются с менеджером</span>
+                        </li>
+                        <li class="contacts__price-item">
+                           Так же вы можете забрать ваш заказ самостоятельно по адресу:<br> <span class="text_green">г. Минск, ул. Тимирязева д. 67, комн. 112 ежедневно с 10.00 до 21.00</span>
+                        </li>
+                     </ul>
+                     <h3 class="contacts__title-item conditions-title">Условия доставки:</h3>
+                     <p class="contacts__price-item mb-100">Доставка осуществляется по городу Минску в пределах МКАД <span class="text_green">в любой день с 09.00 до 22.00.</span><br> Доставка в ночное время осуществляется по договоренности с оператором</p>
+                  </div>
+                     <!-- Контент для режима отзывов -->
+                  <div id="reviews-content" class="reviews">
+                     <p class="reviews_null-text mb-60">Отзывов пока нет</p>
+                     <p class="reviews_null-text-blue">Будьте первым, кто оставил отзыв на “Рубиновые искры”</p>
+                     <p class="reviews_null-text mb-20">Ваш адрес email не будет опубликован. Обязательные поля помечены *</p>
+                     <p class="reviews_null-text">Ваша оценка:</p>
+                     <div class="reviews_null-img-block">
+                        <img class="reviews_null-img" src="resources/star-icon.png" alt="">
+                        <img class="reviews_null-img" src="resources/star-icon.png" alt="">
+                        <img class="reviews_null-img" src="resources/star-icon.png" alt="">
+                        <img class="reviews_null-img" src="resources/star-icon.png" alt="">
+                        <img class="reviews_null-img" src="resources/star-icon.png" alt="">
+                     </div>
+                     <div class="reviews_null-report">
+                        <div class="block-input db-block">
+                           <p class="block-input__title">Ваш отзыв*</p>
+                           <textarea name="" id="" placeholder="ВВЕДИТЕ КОММЕНТАРИЙ" cols="20" rows="10" class="feedback__box-input-comment  report-comment"></textarea>
+                        </div>
+                        <div class="block-input db-block">
+                           <p class="block-input__title">Имя*</p>
+                           <input type="text" placeholder="ВВЕДИТЕ ВАШЕ ИМЯ" class="block-input__input">
+                        </div>
+                        <div class="block-input db-block">
+                           <p class="block-input__title">E-mail*</p>
+                           <input type="text" placeholder="ВВЕДИТЕ ВАШУ ПОЧТУ" class="block-input__input">
+                        </div>
+                        <button class="feedback__box-btn reviews_null-btn">Отправить</button>
+                        <p class="feedback__box-consent-message">Нажимая  на кнопку «Отправить», я даю свое согласие на обработку<br> персональных данных, в соответствии с <a href="" class="consent-message_red consent-message_blood">Политикой конфиденциальности</a>
+                        </p>
+                     </div>
                   </div>
                </div>
-            </div>
             <h3 class="item__like-title">вам может понравиться:</h3>
             <div class="catalog__product-cards popular-bouquest__sliders mt-0">
                <img class="popular-bouquest__slider-arrow-left arrow-slider-item" src="resources/arrow-slide-left.png" alt="стрелка слайдера направленная влево">
@@ -327,38 +360,59 @@
       </div>
    </footer>
    <script>
-      // Получаем элементы радио-переключателя и контейнера с контентом
-      var deliveryModeRadio = document.getElementById('delivery-mode');
-      var reviewsModeRadio = document.getElementById('reviews-mode');
-      var contentContainer = document.getElementById('content-container');
+      let deliveryModeRadio = document.getElementById('delivery-mode');
+      let reviewsModeRadio = document.getElementById('reviews-mode');
+      let contentContainer = document.getElementById('content-container');
 
-      // По умолчанию активируем режим доставки
+      // Получаем метки для режимов доставки и отзывов
+      let deliveryLabel = document.querySelector('.item__switch-delivery[for="delivery-mode"]');
+      let reviewsLabel = document.querySelector('.item__switch-delivery[for="reviews-mode"]');
+
       deliveryModeRadio.checked = true;
       toggleContent('delivery');
+      updateLabelActive();
 
-      // Функция для скрытия/отображения блоков контента
       function toggleContent(mode) {
-         // Скрываем все блоки контента
-         var contentBlocks = contentContainer.getElementsByTagName('div');
+         let contentBlocks = contentContainer.getElementsByTagName('div');
          for (var i = 0; i < contentBlocks.length; i++) {
             contentBlocks[i].style.display = 'none';
          }
 
-         // Отображаем выбранный блок контента
-         var selectedContent = document.getElementById(mode + '-content');
+         let selectedContent = document.getElementById(mode + '-content');
          if (selectedContent) {
             selectedContent.style.display = 'block';
-         }
-      }
 
-      // Устанавливаем обработчики событий на радио-переключатель
+            // Дополнительный код для отображения вложенных блоков
+            let nestedDivs = selectedContent.getElementsByTagName('div');
+            for (var j = 0; j < nestedDivs.length; j++) {
+               nestedDivs[j].style.display = 'block';
+            }
+         }
+      }  
+
       deliveryModeRadio.addEventListener('change', function() {
          toggleContent('delivery');
+         updateLabelActive();
       });
 
       reviewsModeRadio.addEventListener('change', function() {
          toggleContent('reviews');
+         updateLabelActive();
       });
+
+      function updateLabelActive() {
+         // Удаляем класс 'label_active' у обеих меток
+         deliveryLabel.classList.remove('label_active');
+         reviewsLabel.classList.remove('label_active');
+
+         if (deliveryModeRadio.checked) {
+            deliveryLabel.classList.add('label_active');
+         } else if (reviewsModeRadio.checked) {
+            reviewsLabel.classList.add('label_active');
+         }
+      }
+
+
    </script>
 </body>
 </html>

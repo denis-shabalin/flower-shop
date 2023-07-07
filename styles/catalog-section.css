@@ -270,6 +270,7 @@
 
 .product-card__name {
    line-height: 30px;
+   text-decoration: none;
 }
 
 .product-card__price {

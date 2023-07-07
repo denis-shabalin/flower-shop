@@ -1,6 +1,7 @@
 .item__section {
    width: 1440px;
    margin: 0 auto;
+   position: relative;
 }
 
 .item__inner {
@@ -221,7 +222,6 @@
    justify-content: center;
    align-items: center;
    margin-bottom: 61px;
-   gap: 10px;
 }
 
 .item__switch-delivery {
@@ -239,9 +239,9 @@
    border: none;
    cursor: pointer;
    
-   color: #43FFD2;
-   font-weight: 700;
-   border-bottom: 3px solid #43FFD2;
+   color: #555;
+   font-weight: 300;
+   border-bottom: 1px solid #555;
 }
 
 
@@ -250,12 +250,12 @@ input[type="radio"] {
    -webkit-appearance: none; /* для поддержки веб-кит браузерами */
 }
 
-input[type="radio"]:not(:checked) ~ label{
+.label_active {
    /* Ваши стили для выбранного радио-инпута */
    
-   color: #555;
-   font-weight: 300;
-   border-bottom: 1px solid #555;
+   color: #43FFD2;
+   font-weight: 700;
+   border-bottom: 3px solid #43FFD2;
 }
 
 .item__price-list {
@@ -283,6 +283,10 @@ input[type="radio"]:not(:checked) ~ label{
    margin-bottom: 200px;
 }
 
+.mb-60 {
+   margin-bottom: 60px;
+}
+
 .mt-0::after {
    content: none
 }
@@ -291,3 +295,81 @@ input[type="radio"]:not(:checked) ~ label{
    top: 180px;
    cursor: pointer;
 }
+
+.reviews_null-text {
+   color: #FFF;
+   font-family: 'Oswald';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.84px;
+}
+
+.reviews_null-text-blue {
+   color: #43FFD2;
+   font-family: 'Oswald';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.84px;
+   text-transform: uppercase;
+   margin-bottom: 4px;
+}
+
+.reviews_null-img-block {
+   margin-bottom: 20px;
+   margin-top: 4px;
+}
+
+.reviews_null-img {
+   width: 24px;
+   height: 24px;
+   margin-right: 4px;
+}
+
+.db-block {
+   display: block;
+}
+
+.reviews_null-report {
+   width: 540px;
+   margin-bottom: 200px;
+}
+
+.report-comment {
+   width: 100%;
+   border: 1px solid #555;
+   color: #FFF;
+}
+
+.reviews_null-btn {
+   margin-top: 10px;
+}
+
+.item__color-ct {
+   position: absolute;
+   top: -140px;
+   left: 0px;
+   z-index: -1;
+}
+
+.item__color-lc, .item__color-rc {
+   position: absolute;
+   top: 400px;
+   z-index: -1;
+}
+
+
+.item__color-rc {
+   top: 500px;
+   right: 0;
+}
+
+.item__flower-rc {
+   position: absolute;
+   top: 900px;
+   right: 0;
+}
+
